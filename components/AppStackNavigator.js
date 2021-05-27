@@ -3,7 +3,6 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 import HomeScreen from '../screens/HomeScreen';
 import ReceiverDetailsScreen  from '../screens/ReceiverDetailsScreen';
-import NotificationScreen from '../screens/NotificationsScreen'
 
 
 
@@ -21,12 +20,6 @@ export const AppStackNavigator = createStackNavigator({
       headerShown : false
     }
   },
-  Notification : {
-     screen : NotificationScreen,
-     navigationOptions:{
-       headerShown : false
-     }
-   }
  },
 
 
